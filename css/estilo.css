@@ -1,0 +1,225 @@
+.footer {
+  background-color: black;
+}
+
+.footer_nav--ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.footer_nav--ul li a {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footer_nav--ul li a:hover {
+  color: #a09c9a;
+}
+
+.caja, .caja1, .caja2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #485461;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .caja, .caja1, .caja2 {
+    display: block;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+  }
+}
+
+.caja1 {
+  color: bisque;
+  width: 85%;
+  border: 2px #afaaa6 solid;
+  margin-left: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .caja1 {
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .caja1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+
+.caja2 {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.parr {
+  background-color: #485461;
+  text-align: center;
+}
+
+.parr h1 {
+  color: #afaaa6;
+  padding-top: 1rem;
+}
+
+.temas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.temas h2 {
+  color: #3e3e3d;
+}
+
+.temas_11 {
+  text-align: left;
+  padding: 1.5rem;
+  padding-top: 2.1rem;
+  -webkit-text-decoration: aliceblue;
+          text-decoration: aliceblue;
+}
+
+.temas_portada {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 425px) {
+  .temas_portada {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .temas {
+    display: block;
+  }
+}
+
+.otras {
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+}
+
+.otras_texto {
+  color: #f0f0f4;
+  padding: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+.otros {
+  background-image: url(../imagenes/reto6.jpg);
+  background-repeat: no-repeat;
+  width: 90vw;
+  background-attachment: fixed;
+  background-position: 160px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .otros {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .otros {
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: auto;
+    background-color: #c5c4c1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .otros {
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: auto;
+    background-color: #c5c4c1;
+  }
+}
+
+.otros_texto {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  color: #464542;
+}
+
+@media screen and (max-width: 425px) {
+  .otros_texto {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.otro {
+  display: -ms-grid;
+  display: grid;
+}
+
+.otro_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.5rem;
+  padding-left: 7.5rem;
+  width: 90%;
+  background-color: #3f3e3f;
+}
+
+@media screen and (max-width: 465px) {
+  .otro_img {
+    padding: 1rem;
+    width: 90%;
+  }
+}
+
+.otro_texto {
+  text-align: center;
+  padding: 2.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3f3e3f;
+  color: antiquewhite;
+}
+
+.otro_texto h1 {
+  color: #afaaa6;
+  text-align: center;
+}
+/*# sourceMappingURL=estilo.css.map */

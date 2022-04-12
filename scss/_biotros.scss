@@ -1,0 +1,49 @@
+
+
+
+.otros{
+    background-image: url(../imagenes/reto6.jpg);
+    background-repeat: no-repeat;
+     width: 90vw;
+     background-attachment: fixed;
+     background-position: 160px 0; 
+
+     @media screen and (max-width: 425px) {
+       background-image: none;
+    }
+
+     @media screen and (max-width: 768px) {
+         background-position: 0px 0px;
+         background-attachment: fixed;
+         width: 100%;
+         background-size: auto;
+         background-color: rgb(197, 196, 193);
+         
+     }
+
+     @media screen and (min-width: 1024px) {
+        background-position: 0px 0px;
+        background-attachment: fixed;
+        width: 100%;
+        background-size: auto;
+        background-color: rgb(197, 196, 193);
+        
+    }
+
+     
+    
+         
+    }
+
+.otros_texto{
+    padding: 0;
+    margin:0;
+    width: 50%;
+    color: rgb(70, 69, 66);
+    @media screen and (max-width: 425px) {
+        width: 100%;
+        justify-content: center;
+        
+     }
+   
+}

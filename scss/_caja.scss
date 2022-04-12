@@ -1,0 +1,55 @@
+.caja{ 
+    display:flex;
+    
+    background-color: #485461;
+    padding-bottom: 1rem;
+    @media screen and(max-width:425px) {
+       display:block;
+       padding-right: 1.5rem;
+       padding-left: 1rem;
+           
+    }
+   
+    }
+    .caja1{
+        @extend .caja;
+        color:bisque;
+        width: 85%;
+        border: 2px  rgb(175, 170, 166) solid;
+        margin-left: 1.2rem;
+        
+
+               
+        @media screen and (max-width:768px) {
+            margin-left: 2.5rem; 
+            margin-right: 1.5rem; 
+        }
+        @media screen and (max-width:1440px) {
+            margin-left: 2.5rem; 
+            margin-right: 2.5rem; 
+
+        }
+        
+                       
+    }
+    .caja2{
+        @extend .caja;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1.5rem;                    
+        }
+        
+    
+    .parr{
+        background-color: #485461;
+        text-align: center;
+        
+        
+        h1{
+            color: rgb(175, 170, 166);
+            padding-top: 1rem ;
+            
+        }
+        
+
+    }

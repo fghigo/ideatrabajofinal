@@ -1,0 +1,46 @@
+$bg-body: rgb(63, 62, 63);
+@import "footer";
+@import "caja";
+@import "temas";
+@import "biotros";
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.otro{
+        
+    &_img {
+        padding: 2.5rem;
+        padding-left: 7.5rem;
+        width:90%;
+        background-color: $bg-body;
+        @media screen and (max-width:465px) {
+            padding:1rem;
+            width: 90%;            
+        }
+                              
+        }
+       
+    
+    &_texto{
+        h1{
+            color: rgb(175, 170, 166);
+            text-align: center;
+        }
+       
+        text-align: center;
+        padding: 2.5rem;
+        justify-content: center;
+        background-color: $bg-body;
+        color: antiquewhite;
+           }
+
+       
+        }

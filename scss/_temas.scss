@@ -1,0 +1,44 @@
+@mixin music {
+    text-align:left;
+    padding: 1.5rem;
+   
+}
+
+.temas{
+    display: flex;
+    
+    h2{ color: rgb(62, 62, 61);}
+
+     &_11{
+        @include music
+        padding-top: 2.1rem; 
+        text-decoration: aliceblue; 
+    }
+    &_portada{
+        justify-content: flex-end;
+        padding-left: 5rem;
+        padding-bottom: 2.5rem;
+        @media screen and (max-width:425px){
+            padding: 1rem;   
+        }
+         }
+         @media screen and (max-width:425px){
+           display: block;            
+        }
+}
+
+.otras{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+         }
+
+.otras_texto{
+    
+    color: rgb(240, 240, 244);
+    padding:2rem;
+    justify-content: center;
+    text-align: left;
+    }
+
+
+
